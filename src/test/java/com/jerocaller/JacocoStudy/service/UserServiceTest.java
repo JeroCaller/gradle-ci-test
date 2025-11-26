@@ -40,7 +40,7 @@ class UserServiceTest {
 
         userDto.setUserGrade(UserGrade.GOLD);
         userDto = userService.addBonusByUserGrade(userDto);
-        assertThat(userDto.getMoney()).isEqualTo(600);
+        assertThat(userDto.getMoney()).isEqualTo(700);
     }
 
     @Test

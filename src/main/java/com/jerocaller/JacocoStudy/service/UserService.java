@@ -22,7 +22,7 @@ public class UserService {
                 break;
             case UserGrade.GOLD:
                 //userDto.addMoney(300);
-                userDto.addMoney(400);  // 일부러 테스트 결과가 틀리도록 값을 수정.
+                userDto.addMoney(400);
                 break;
         }
 
