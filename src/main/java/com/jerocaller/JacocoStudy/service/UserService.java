@@ -21,7 +21,8 @@ public class UserService {
                 userDto.addMoney(200);
                 break;
             case UserGrade.GOLD:
-                userDto.addMoney(300);
+                //userDto.addMoney(300);
+                userDto.addMoney(400);
                 break;
         }
 
