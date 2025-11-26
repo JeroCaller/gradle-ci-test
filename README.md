@@ -1,6 +1,6 @@
 # Github Actions를 이용한 CI 테스트 자동화 구축 연습 repo
 
-[![CI based on Gradle and Java](https://github.com/JeroCaller/gradle-ci-test/actions/workflows/ci.yml/badge.svg?branch=main&event=pull_request)](https://github.com/JeroCaller/gradle-ci-test/actions/workflows/ci.yml)
+[![CI based on Gradle and Java](https://github.com/JeroCaller/gradle-ci-test/actions/workflows/ci.yml/badge.svg)](https://github.com/JeroCaller/gradle-ci-test/actions/workflows/ci.yml)
 
 - 목표
   - Github Actions를 이용하여 main 브랜치로의 PR시 테스트 실행 및 결과 보고 자동화.
