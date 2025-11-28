@@ -78,4 +78,14 @@ class UserServiceTest {
         int result = userService.getTotalAllUsersMoney(users);
         assertThat(result).isEqualTo(1500);
     }
+
+    @Test
+    void testCalculatingTotalOfAllUsersExp() {
+        List<UserDto> users = new ArrayList<>();
+        users.add(UserDto.builder().experiencePoint(100).build());
+        users.add(UserDto.builder().experiencePoint(1234).build());
+
+        int result = userService.getTotalAllUsersExp(users);
+        assertThat(result).isEqualTo(1334);
+    }
 }
