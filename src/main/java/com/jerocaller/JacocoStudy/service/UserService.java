@@ -72,4 +72,16 @@ public class UserService {
 
         return total;
     }
+
+    public int getMaxUserMoney(List<UserDto> users) {
+        int maxMoney = 0;
+
+        for (UserDto userDto : users) {
+            if (maxMoney < userDto.getMoney()) {
+                maxMoney = userDto.getMoney();
+            }
+        }
+
+        return maxMoney;
+    }
 }
